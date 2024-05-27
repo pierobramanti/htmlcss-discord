@@ -123,8 +123,6 @@ header{
 .fifth-section{
     justify-content: center;
     text-align: center;
-
-
 }
 
 
@@ -135,9 +133,8 @@ header{
 }
 
 .col-darkpink{
-    background-color: rgb(223, 32, 149);
     height: 350px;
-    width:calc(30%);
+    width:calc(25%);
     margin-top: 10px;
 
 }
@@ -150,14 +147,14 @@ header{
 }
 
 .col-lightblue-2{
-    background-color: rgb(32, 217, 223);
-    height: 60px;
-    width:calc(50%);
+    height: 200px;
+    width:calc(75%);
     margin-top: 10px;
-    border: 1px dashed white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    border-top: solid 2px blue;
+    padding-top: 10px;
 }
 .content{
     display: flex;
@@ -286,23 +283,27 @@ a{
 .row-darkgrey-2{
     display: flex;
     flex-wrap: wrap;
-    background-color:rgb(90, 75, 75);
+    background-color:rgb(46, 40, 40);
     height: 90px;
     justify-content: center;
     align-content: flex-end;
 
 }
 
-hr{
-   background-color: white;
-   height: 2px;
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: blue;
 }
 
+
 .bottone-logo{
-    height: 20px;
-    width: 60px;
-    border: dashed black 1px;
-    background-color: pink;
+    height: 30px;
+    width: 90px;
+    background-color: rgb(22, 64, 177);
+    color:white;
+    border-radius: 20px;
+    padding: 5px 5px 5px 10px;
     
 }
 
