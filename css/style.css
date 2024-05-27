@@ -24,6 +24,7 @@ header{
     background-size: cover;
 }
 
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -119,6 +120,15 @@ header{
     height: 20px;
 }
 
+.fifth-section{
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+
+    
 .col-green{
     height: 500px;
     width:calc(75%);
@@ -127,16 +137,15 @@ header{
 .col-darkpink{
     background-color: rgb(223, 32, 149);
     height: 350px;
-    width:calc(18%);
+    width:calc(30%);
     margin-top: 10px;
 
 }
 .col-lightblue{
-    background-color: rgb(32, 217, 223);
     height: 350px;
-    width:calc(8%);
+    width:calc(15%);
     margin-top: 10px;
-    border: 1px dashed white;
+
 
 }
 
@@ -172,7 +181,6 @@ header{
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
-
 }
 #open{
     background-color:black;
@@ -191,6 +199,39 @@ header{
     gap: 50px;
     display: flex;
     
+}
+
+.list-footer{
+    list-style-type: none;
+       
+}
+#first-li{
+    font-size: 20px;
+    color: rgb(27, 56, 185);
+    font-weight: 150px;
+}
+li{
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+
+}
+#down-mac{
+    background-color: rgb(22, 64, 177);
+    color:white;
+    border-radius: 20px;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.flag{
+    height: 20px;
+    width: 25px;
+}
+
+#lang{
+    color: white;
+    font-size: 20px;
 }
 
 .st-login{
@@ -237,9 +278,10 @@ a{
 .row-darkgrey{
     display: flex;
     flex-wrap: wrap;
-    background-color:rgb(90, 75, 75);
-    height: 400px;
+    background-color:rgb(46, 40, 40);
+    height: 600px;
     justify-content:center;
+    padding-top: 50px;
 }
 .row-darkgrey-2{
     display: flex;
