@@ -7,6 +7,8 @@ body{
     font-family: "Roboto";
 }
 
+
+
 .container-full{
     max-width: 1200px;
     margin: auto;
@@ -14,40 +16,41 @@ body{
 .container{
     max-width: 1200px;
     margin: auto;
-    
+   
 }
 
+header{
+    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(13, 226, 180);
     justify-content: center;
     height: 80px;
 }
 .col-1{
-    width: calc(10%);
-    background-color: rgb(223, 174, 14);
-    border: 2px dashed black;
+    width: calc(20%);
     height: 20px;
     margin-top: 30px;
    
 
 }
 .col-2{
-    width: calc(30%);
-    background-color: rgb(223, 174, 14);
-    border: 2px dashed black;
+    width: calc(50%);
     height: 20px;   
     margin-top: 30px;
+    
 }
 .col-3{
-    width: calc(10%);
-    background-color: rgb(223, 174, 14);
-    border: 2px dashed black;
+    width: calc(20%);
     height: 20px;
     margin-top: 30px;
-   
+    display: flex;
+    justify-content: flex-end;
 }
 .col-4{
     background-color: rgb(233, 141, 156);
@@ -118,10 +121,22 @@ body{
     display: flex;
     
 }
+
+.st-login{
+    background-color: white;
+    border-radius: 20%;
+    padding: 5px;
+    color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 .row-blue{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(17, 0, 255);
     height: 350px;
     
 }
