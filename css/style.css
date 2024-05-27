@@ -53,9 +53,8 @@ header{
     justify-content: flex-end;
 }
 .col-4{
-    background-color: rgb(233, 141, 156);
-    width:calc(40%);
-    height: 250px;
+    width:calc(50%);
+    height: 300px;
     margin:auto;
 }
 .col-blue{
@@ -114,6 +113,39 @@ header{
 }
 .content{
     display: flex;
+
+}
+.content-inf{
+    padding: 20px 20px;
+    color: white;
+    font-weight: 30px;
+    text-align:center;
+}
+.open-discord{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#download{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+
+}
+#open{
+    background-color:black;
+    color: white;
+    border-radius:20px;
+    padding: 10px;
+    margin: 10px;
+}
+#darr{
+    margin: 5px;
+    
+
 }
 #main-menu{
     list-style-type: none;
