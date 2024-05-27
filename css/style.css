@@ -59,21 +59,60 @@ header{
 }
 .col-blue{
     background-color: rgb(25, 0, 255);
-    height: 200px;
-    width:calc(30%);
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border: 2px dashed black
-    
-        
+    height: 320px;
+    width:calc(35%);
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+      
 }
 .col-pink{
     background-color: rgb(255, 165, 236);
-    height: 200px;
-    width:calc(20%);
-    margin-top: 50px;
-    border: 2px dashed black
+    height: 320px;
+    width:calc(40%);
+    margin-top: 40px;
+    margin-bottom: 20px;      
 }
+
+.first-item{
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-section{
+    text-align:left;
+    padding-right: 200px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.second-item{
+    background-image: url(../img/item2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-section{
+    text-align:left;
+    padding-right: 200px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.thrid-item{
+    background-image: url(../img/item3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third-section{
+    text-align:left;
+    padding-right: 200px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
 
 .col-green{
     background-color: rgb(34, 202, 0);
@@ -176,7 +215,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     background-color:rgb(252, 252, 252);
-    height: 300px;
+    height: 400px;
     justify-content:center;
    
 }
@@ -185,7 +224,7 @@ a{
      display: flex;
     flex-wrap: wrap;
     background-color:rgb(199, 199, 199);
-    height: 300px;
+    height: 400px;
     justify-content:center;
 }
 .row-grey-2{
