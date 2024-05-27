@@ -7,8 +7,6 @@ body{
     font-family: "Roboto";
 }
 
-
-
 .container-full{
     max-width: 1200px;
     margin: auto;
@@ -58,16 +56,12 @@ header{
     margin:auto;
 }
 .col-blue{
-    background-color: rgb(25, 0, 255);
     height: 320px;
     width:calc(35%);
     margin-top: 40px;
-    margin-bottom: 20px;
-
-      
+    margin-bottom: 20px;      
 }
 .col-pink{
-    background-color: rgb(255, 165, 236);
     height: 320px;
     width:calc(40%);
     margin-top: 40px;
@@ -82,8 +76,8 @@ header{
 
 .first-section{
     text-align:left;
-    padding-right: 200px;
-    padding-left: 20px;
+    padding-right: 150px;
+    padding-left: 10px;
     padding-top: 30px;
 }
 
@@ -95,8 +89,8 @@ header{
 
 .second-section{
     text-align:left;
-    padding-right: 200px;
-    padding-left: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
     padding-top: 30px;
 }
 
@@ -108,19 +102,26 @@ header{
 
 .third-section{
     text-align:left;
-    padding-right: 200px;
-    padding-left: 20px;
+    padding-right: 150px;
+    padding-left: 50px;
     padding-top: 30px;
 }
+.fourth-item{
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.fourth-section{
+    justify-content: center;
+    text-align: center;
+    padding: 100px 100px 5px 100px;
+    height: 20px;
+}
 
 .col-green{
-    background-color: rgb(34, 202, 0);
-    height: 400px;
-    width:calc(50%);
-    margin-top: 50px;
-    border: 2px dashed black
-
+    height: 500px;
+    width:calc(75%);
 }
 
 .col-darkpink{
@@ -128,7 +129,6 @@ header{
     height: 350px;
     width:calc(18%);
     margin-top: 10px;
-    border: 2px dashed black
 
 }
 .col-lightblue{
@@ -223,15 +223,15 @@ a{
 .row-grey{
      display: flex;
     flex-wrap: wrap;
-    background-color:rgb(199, 199, 199);
+    background-color:rgb(238, 228, 228);
     height: 400px;
     justify-content:center;
 }
 .row-grey-2{
     display: flex;
    flex-wrap: wrap;
-   background-color:rgb(199, 199, 199);
-   height: 500px;
+   background-color:rgb(238, 228, 228);
+   height: 900px;
    justify-content:center;
 }
 .row-darkgrey{
