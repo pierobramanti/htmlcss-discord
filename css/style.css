@@ -235,7 +235,7 @@ li{
 
 .st-login{
     background-color: white;
-    border-radius: 20%;
+    border-radius: 20px;
     padding: 5px;
     color: black;
 }
@@ -243,6 +243,13 @@ li{
 a{
     color: white;
     text-decoration: none;
+}
+
+.star{
+    height: 50px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    width: 100px;
 }
 
 .row-blue{
@@ -309,3 +316,9 @@ h3{
     
 }
 
+.social{
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
